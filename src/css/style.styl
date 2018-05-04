@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
 }
 
 .container {
@@ -8,7 +9,9 @@ body {
 }
 
 .site-body {
-    
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     .footer {
         
     }
@@ -16,4 +19,36 @@ body {
 
 .home {
     
+}
+
+.page {
+    text-align: center;
+    padding-bottom: 50px;
+    
+    .body {
+        background-color: #dcdcdc;
+        border: 5px solid #134244;
+        border-radius: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+        .left-text {
+            text-align: left;
+            
+            li {
+                color: inherit;
+                margin-left: 50px;
+            }
+            
+            .title {
+                margin-top: 30px;
+                font-weight: bold;
+                font-size: 25px;
+            }
+            
+            .tiny-text {
+                font-size: 8px;
+            }
+        }
+    }
 }

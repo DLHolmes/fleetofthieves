@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Metalsmith Template - <%-title%></title>
+    <title>Fleet of Thieves - <%-title%></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
     <link href="/css/style.css" media="all" rel="stylesheet" type="text/css" />
@@ -9,15 +9,7 @@
 </head>
 
 <body>
-    <div class="site-body container">
-        <div class="menu">
-            <img class="logo" src="/images/">
-            <ul class="sub-region-menu">
-                <li><a href="/"/>Home</a></li>
-                <li><a href="/pluto"/>Pluto</a></li>
-                <li><a href="/neptune"/>Neptune</a></li>
-            </ul>
-        </div>
+    <div class="site-body">
         <div class="content">
             <% if(typeof(layout_type) != "undefined" && layout_type) {%>
             <%- include(layout_type) %>
